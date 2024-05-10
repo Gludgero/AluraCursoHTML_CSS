@@ -4,15 +4,38 @@
 }
 
 body {
+    height: 100vh;
+    box-sizing: border-box;
     background-color: black;
     color: antiquewhite;
 
 }
 
 strong {
-    color: rgb(12, 240, 12);
+    color: rgb(21, 99, 21);
+}
+
+p {
+    font-size: 24px;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 7%;
 }
 
 .destaque-titulo {
-    color: rgb(21, 99, 21);
+    color: rgb(12, 240, 12);
+}
+
+.main-conteudo {
+    width: 615px;
+
+}
+
+.main-conteudo-titulo {
+    font-size: 36px;
+
 }
